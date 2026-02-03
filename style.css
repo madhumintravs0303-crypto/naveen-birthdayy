@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #b388ff, #ffffff);
+  font-family: cursive;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(128, 0, 128, 0.3);
+}
+
+.cake {
+  font-size: 70px;
+  animation: bounce 1.5s infinite;
+}
+
+h1 {
+  color: #6a1b9a;
+  font-size: 3em;
+}
+
+h2 {
+  color: #8e24aa;
+  font-size: 2em;
+}
+
+.bestie {
+  color: #5e35b1;
+  font-size: 1.3em;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
